@@ -1,6 +1,12 @@
 {
-    "files.associations": {
-        ".env.example": "dotenv",
-        "Dockerfile-*": "dockerfile"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": false,
+    "editor.rulers": [
+      80,
+      120
+    ],
+    "[blade]": {
+      "editor.defaultFormatter": "shufo.vscode-blade-formatter"
     }
-}
+  }
+  
